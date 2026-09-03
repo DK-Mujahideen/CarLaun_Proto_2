@@ -1,0 +1,19 @@
+node_modules/
+.env
+.next/
+out/
+
+# Android build artifacts (keep the project itself, ignore generated build output)
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/captures/
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+*.iml
+.idea/
+
+# Project exclude paths
+/.gradle/
+/build/
